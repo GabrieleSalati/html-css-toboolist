@@ -43,6 +43,8 @@ nav {
 #title {
     display: inline;
     vertical-align: middle;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Nav */
@@ -70,4 +72,12 @@ nav {
 
 ul {
     list-style: none;
+    margin-left: 50px;
+    padding: 15px 0px 15px 0px;
+}
+
+li {
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
