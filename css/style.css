@@ -6,10 +6,30 @@
     box-sizing: border-box;
 }
 
+/* General */
+body {
+    background-color:whitesmoke;
+}
+
+header {
+    background-color: white;
+}
+
 /* Containers */
 
 #container {
-    margin: 0px 300px 0px 300px;
+    margin: 0px 150px 0px 150px;
+}
+
+nav {
+    background-color: white;
+    margin: 30px 150px 0px 150px;
+}
+
+
+#subcontainer {
+    background-color: white;
+    margin: 2px 150px 15px 150px;
 }
 
 
@@ -23,4 +43,31 @@
 #title {
     display: inline;
     vertical-align: middle;
+}
+
+/* Nav */
+
+#input1 {
+    padding: 3px 10px 3px 10px;
+    margin: 15px 10px 15px 50px;
+    background-color:deepskyblue;
+    border-color: deepskyblue;
+    border-radius: 15%;
+    color: white;
+}
+
+
+#input2  {
+    padding: 3px 10px 3px 10px;
+    margin: 15px 10px 15px 2px;
+    background-color: white;
+    border-color: lightgray;
+    border-radius: 15%;
+    color: grey;
+}
+
+/* Contenuto centrale */
+
+ul {
+    list-style: none;
 }
