@@ -1,0 +1,26 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Containers */
+
+#container {
+    margin: 0px 300px 0px 300px;
+}
+
+
+/* Header */
+
+#logo {
+    padding: 10px 10px 10px 20px;
+    vertical-align: middle;
+}
+
+#title {
+    display: inline;
+    vertical-align: middle;
+}
